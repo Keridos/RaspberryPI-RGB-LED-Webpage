@@ -9,7 +9,8 @@ html, body {
 	font-size:20px;
 	text-align: center;
 	padding: 0;
-	margin: 0
+	margin: 0;
+	background-color: #f0f0f0;
 }
 
 table {
@@ -43,11 +44,25 @@ a {
 	-webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-    background-color:#ededed;
-    border:1px solid #314179;
+    background-color:#8f8f8f;
+    border:1px solid #333333;
     display: block;
     text-decoration: none;
-    color: initial;
+    color: #ffffff;
+}
+
+.Button:hover {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color:#a8a8a8;;
+    border:1px solid #333333;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .color {
