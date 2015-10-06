@@ -1,0 +1,49 @@
+ * {
+    margin: 0;
+ }
+
+html, body {
+	width: 99%;
+	height: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-align: center;
+	padding: 0;
+	margin: 0
+}
+
+table {
+	text-align: left;
+	margin: 10px auto auto auto;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+.tdLeft{
+	width: 10px;
+}
+
+.tdRight{
+	width: 34px;
+}
+
+.Title {
+	font-size: 24px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.Button {
+	width: 100%;
+}
+
+.color {
+	width: 100%;
+}
+
+.Range {
+	width: 100%;
+}
