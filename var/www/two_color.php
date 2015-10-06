@@ -78,7 +78,7 @@ if ($color6 == "" || hexdec($color6) > 16777215) {$color6 = "fff000";}
 				<td colspan="3"><p class="Title">Two color</p></td>
 			</tr>
 			<tr>
-				<td colspan="3"><p><button class="Button"><a href="index.php?action=<?php echo $action ?>&speed=<?php echo $speed ?>&step=<?php echo $step ?>&delay=<?php echo $delay ?>&reverse=<?php echo $reverse ?>&color1=<?php echo $color1 ?>&color2=<?php echo $color2 ?>&color3=<?php echo $color3 ?>&color4=<?php echo $color4 ?>&color5=<?php echo $color5 ?>&color6=<?php echo $color6 ?>">Main Menu</a></button></p></td>
+				<td colspan="3"><p><a  class="Button" href="index.php?action=<?php echo $action ?>&speed=<?php echo $speed ?>&step=<?php echo $step ?>&delay=<?php echo $delay ?>&reverse=<?php echo $reverse ?>&color1=<?php echo $color1 ?>&color2=<?php echo $color2 ?>&color3=<?php echo $color3 ?>&color4=<?php echo $color4 ?>&color5=<?php echo $color5 ?>&color6=<?php echo $color6 ?>">Main Menu</a></p></td>
 			</tr>
 			<tr>
 				<td colspan="3"><p><input class="color" type="text" name="color1" id="color1" maxlength="6" size="20px" value="<?php echo $color1 ?>"></p></td>
@@ -127,10 +127,10 @@ if ($color6 == "" || hexdec($color6) > 16777215) {$color6 = "fff000";}
 				<td colspan="3"><p><input type="submit" value="Activate" class="Button"></p></td>
 			</tr>
 			<tr>
-				<td colspan="3"><br /><p><button class="Button"><a href="two_color.php">Reset Color</a></button></p></td>
+				<td colspan="3"><br /><p><a  class="Button" href="two_color.php">Reset Color</a></p></td>
 			</tr>
 			<tr>
-				<td colspan="3"><p><button class="Button"><a href="/cgi-bin/command.py?action=stop&speed=<?php echo $speed ?>&step=<?php echo $step ?>&delay=<?php echo $delay ?>&reverse=<?php echo $reverse ?>&color1=<?php echo $color1 ?>&color2=<?php echo $color2 ?>&color3=<?php echo $color3 ?>&color4=<?php echo $color4 ?>&color5=<?php echo $color5 ?>&color6=<?php echo $color6 ?>">Turn Off</a></button></p></td>
+				<td colspan="3"><p><a  class="Button" href="/cgi-bin/command.py?action=stop&speed=<?php echo $speed ?>&step=<?php echo $step ?>&delay=<?php echo $delay ?>&reverse=<?php echo $reverse ?>&color1=<?php echo $color1 ?>&color2=<?php echo $color2 ?>&color3=<?php echo $color3 ?>&color4=<?php echo $color4 ?>&color5=<?php echo $color5 ?>&color6=<?php echo $color6 ?>">Turn Off</a></p></td>
 			</tr>
 		</TABLE>
 	</FORM>
