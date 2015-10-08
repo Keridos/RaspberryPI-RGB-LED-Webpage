@@ -15,7 +15,7 @@ Install pi-blaster from : https://github.com/sarfata/pi-blaster/ :
 ```
 wget https://github.com/sarfata/pi-blaster/archive/master.zip
 unzip master.zip
-cd pi-blaster-maser
+cd pi-blaster-master
 ./autogen.sh
 ./configure
 make
