@@ -9,10 +9,10 @@ Make sure the python files in the cgi-bin folder have the executable flag (sudo 
 
 Set the pin number you use in the \usr\lib\cgi-bin\LED.py file.  default is 4, 17 and 18.
 
-Make sure you have php and a webserver installed (commands for debian):
+Make sure you have php, apache and the build requirements for pi-blaster installed (commands for debian):
 ```
 sudo apt-get update
-sudo apt-get install apache2 autoconf
+sudo apt-get install apache2 php5 libapache2-mod-php5 autoconf
 ```
 
 Install pi-blaster from : https://github.com/sarfata/pi-blaster/ :
