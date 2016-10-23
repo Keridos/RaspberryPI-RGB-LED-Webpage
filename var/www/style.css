@@ -3,66 +3,86 @@
  }
 
 html, body {
-	width: 99%;
 	height: 100%;
-	font-family:Arial, Helvetica, sans-serif;
 	font-size:20px;
 	text-align: center;
 	padding: 0;
 	margin: 0;
-	background-color: #f0f0f0;
+	background-color: white;
+    font-family: 'Source Sans Pro';
+    margin: 0 auto;
 }
 
-table {
-	text-align: left;
-	margin: 10px auto auto auto;
-	width: 100%;
+body {
+    width: 50%;
 }
+
 
 a {
 	text-decoration: none;
 	color: black;
 }
-.tdLeft{
-	width: 10px;
-}
-
-.tdRight{
-	width: 34px;
-}
 
 .Title {
-	font-size: 24px;
-	text-align: center;
-	text-decoration: underline;
+	font-size: 3.2em;
+    color: black;
+    font-weight: bold;
+	text-align: left;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    margin-left: -5px;
+}
+
+.subtitle {
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .Button {
-	width: 100%;
+    width: 125px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px 15px 15px 0px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 0.7em;
 	-webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-    background-color:#8f8f8f;
-    border:1px solid #333333;
+    background-color: lightgray;
+    border-radius: 3px;
     display: block;
     text-decoration: none;
     color: #ffffff;
+    transition: 0.18s;
 }
 
 .Button:hover {
-	width: 100%;
-	text-align: center;
-	font-size: 14px;
-	-webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    background-color:#a8a8a8;;
-    border:1px solid #333333;
+    background-color: #a8a8a8;
     display: block;
     text-decoration: none;
-    color: #ffffff;
+    color: lightgray;
+}
+
+.turnoff {
+    opacity: 0.5;
+    background-color: rgba(120,0,0,0.8);
+    color: white;
+
+}
+
+.turnoff:hover {
+    opacity: 1;
+    background-color: rgba(120,0,0,1);
+    color: black;
 }
 
 .color {
